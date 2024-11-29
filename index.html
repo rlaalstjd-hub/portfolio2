@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="#">My Portfolio</a></h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <!-- GIF 배경 -->
+            <img src="snow-16036.gif" alt="Creative Animation" class="banner-gif">
+            <h2 class="animate-text">Welcome to My World</h2>
+            <p class="animate-text">Creative Developer | Designer | Dreamer</p>
+        </div>
+    </section>
+
+    <section id="profile" class="section">
+        <div class="container">
+            <div class="profile-container">
+                <div class="profile-image" style="background-image: url('https://via.placeholder.com/150');"></div>
+                <div class="profile-details">
+                    <h2>김민성</h2>
+                    <p>제 포트폴리오 사이트에 오신 걸 환영합니다.</p>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="mailto:john.doe@example.com">Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- 프로젝트 1 -->
+                <a href="http://hn990713.dothome.co.kr/03/" target="_blank" class="project-card">
+                    <h3>Project 1</h3>
+                    <p>첫 번째 프로젝트</p>
+                </a>
+
+                <!-- 프로젝트 2 -->
+                <a href="http://hn990713.dothome.co.kr/04/" target="_blank" class="project-card">
+                    <h3>Project 2</h3>
+                    <p>두 번째 프로젝트</p>
+                </a>
+
+
+                <!-- 프로젝트 추가 -->
+                <a href="#" target="_blank" class="project-card">
+                    <h3>Project 3</h3>
+                    <p>추가될 프로젝트 내용</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
